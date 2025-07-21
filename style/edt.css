@@ -3,14 +3,14 @@ html {
     font-family: Montserrat, sans-serif;
     --theme-color: #FF006E;
 }
-img {
+img.page-image {
     width: 640px;
 }
 a:link, a:visited {
     color: var(--theme-color);
 }
 @media (max-width: 640px) {
-    img {
+    img.page-image {
         width: 100%;
     }
 }
