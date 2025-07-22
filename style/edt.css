@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin-top: 50px;
+}
 html {
     font-family: Montserrat, sans-serif;
     --theme-color: #FF006E;
@@ -13,4 +16,12 @@ a:link, a:visited {
     img.page-image {
         width: 100%;
     }
+}
+.navbar {
+    display: flex;
+    color: white;
+    background-color: var(--theme-color);
+    height: 50px;
+    padding: 8px;
+    align-items: center;
 }
