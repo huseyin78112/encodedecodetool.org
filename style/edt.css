@@ -37,4 +37,5 @@ a:link, a:visited {
     display: inline-block;
     height: 100%;
     flex-basis: auto;
+    max-width: 300px;
 }
