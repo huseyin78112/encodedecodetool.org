@@ -29,9 +29,12 @@ a:link, a:visited {
     top: 0;
     left: 0;
     width: 100%;
+    flex-direction: column;
 }
 .navbar a {
     color: white;
     text-decoration: none;
-    margin-right: 8px;
+    display: inline-block;
+    height: 100%;
+    flex-basis: auto;
 }
